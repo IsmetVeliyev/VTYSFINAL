@@ -41,7 +41,7 @@ public class VTYS {
     
     public static void createConnection() throws Exception{
         Class.forName("com.mysql.cj.jdbc.Driver");
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vtys", "root", "123321@@");
+        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vtys", "root", "password");
         System.out.println("Database Connection Success");     
     }
 }
